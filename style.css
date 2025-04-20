@@ -90,7 +90,7 @@ a{
 }
 
 /* Mobilde Değişiklik */
-@media (max-width: 500px) {
+@media (max-width: 428px) {
   /* Div'ler sabit kalacak */
   .div1 {
     width: 90%;
