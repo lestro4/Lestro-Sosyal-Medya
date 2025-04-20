@@ -104,7 +104,7 @@ a{
 
   /* Diğer div'ler de sabit boyutta kalacak */
   .div2, .div3, .div4, .div5, .div6 {
-    width: 75%;
+    width: 250px;
     height: 50px;  /* Sabit yükseklik */
     margin: 10px 0;  /* Aralarındaki boşluk */
   }
