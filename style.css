@@ -9,8 +9,9 @@ body {
   align-items: center;
   position: relative;
   overflow: hidden;
-  background-size: cover; /* Arka planın tüm alanı kaplaması için */
-  background-position: center center; /* Arka planın ortalanması */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body::before {
@@ -103,7 +104,7 @@ a{
 
   /* Diğer div'ler de sabit boyutta kalacak */
   .div2, .div3, .div4, .div5, .div6 {
-    width: 90%;
+    width: 75%;
     height: 50px;  /* Sabit yükseklik */
     margin: 10px 0;  /* Aralarındaki boşluk */
   }
